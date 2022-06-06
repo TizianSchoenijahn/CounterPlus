@@ -8,12 +8,14 @@ let integer = 0 ;
 
 var audioElement = new Audio('tsclick.wav');
 
+
+
 add.addEventListener('click',function(){
     integer += 1;
     val.innerHTML = integer;
     audioElement.play();
     localStorage.setItem('number', integer)
-    window.navigator.vibrate(200);
+    window.navigator.vibrate(20);
 })
 
 remove.addEventListener('click',function(){
@@ -21,7 +23,7 @@ remove.addEventListener('click',function(){
     val.innerHTML = integer;
     audioElement.play();
     localStorage.setItem('number', integer)
-    window.navigator.vibrate(200);
+    window.navigator.vibrate(20);
 })
 
 add.addEventListener('click',function(){
