@@ -8,8 +8,6 @@ let integer = 0 ;
 
 var audioElement = new Audio('tsclick.wav');
 
-
-
 add.addEventListener('click',function(){
     integer += 1;
     val.innerHTML = integer;
@@ -35,3 +33,5 @@ remove.addEventListener('click',function(){
 })
 
 console.localStorage(number)
+
+var successBool = window.navigator.vibrate(pattern);
