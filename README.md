@@ -1,3 +1,3 @@
 # CounterPlus
 A simple counter called CounterPlus developed by Tizian Schönijahn.
-Try it under: http://tizian.link/counterplus
+Try it out: http://tizian.link/counterplus
