@@ -1,5 +1,9 @@
 # CounterPlus
-A simple counter called CounterPlus developed by Tizian Schönijahn.
-Try it out: http://tizian.link/counterplus
+🎉 A simple counter called **CounterPlus** developed by **Tizian Schönijahn**.
+>🔌  Try it out: http://tizian.link/counterplus
 
-[ImageBanner](https://github.com/TizianSchoenijahn/CounterPlus/blob/main/MarketingImageCounterPlus.png)
+![Banner](https://github.com/TizianSchoenijahn/CounterPlus/blob/main/MarketingImageCounterPlus.png)
+
+📝To do list:
+- automatic local storage saving
+- more functions
