@@ -53,8 +53,8 @@ margin-left: 1vh;
 .infobuttonbox{
     align-self: end;
     position: fixed;
-    bottom:1vh;
-    right:1vh;
+    bottom:1.5vh;
+    right:1.5vh;
 }
 
 
@@ -62,8 +62,8 @@ margin-left: 1vh;
     color:white;
     background-color: rgb(60, 60, 60);
     margin: 2%;
-    width: 10vh;
-    height: 10vh;
+    width: 8vh;
+    height: 8vh;
     font-size: 4vh;
     border: none;
     border-radius: 20vh;
