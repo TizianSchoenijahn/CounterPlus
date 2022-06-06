@@ -13,6 +13,7 @@ add.addEventListener('click',function(){
     val.innerHTML = integer;
     audioElement.play();
     localStorage.setItem('number', integer)
+    window.navigator.vibrate(200);
 })
 
 remove.addEventListener('click',function(){
@@ -20,6 +21,7 @@ remove.addEventListener('click',function(){
     val.innerHTML = integer;
     audioElement.play();
     localStorage.setItem('number', integer)
+    window.navigator.vibrate(200);
 })
 
 console.localStorage(number)
