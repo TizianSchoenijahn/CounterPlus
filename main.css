@@ -22,13 +22,14 @@ header .Headercontent{
     height: 5vh;
     text-align: center;
     vertical-align: middle;
+    top: 50%;
+    bottom: 50%;
 }
 
 header .Headercontent b {
     color:white;
     font-size: 3vh;
     margin-left: 1vh;
-    
 }
 
 .HeaderTitle{
