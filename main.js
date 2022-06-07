@@ -7,19 +7,20 @@ let val = document.getElementById('number');
 let ref = document.getElementById('RefreshButton');
 let integer = 0 ;
 
-var audioElement = new Audio('tsclick.wav');
+var click = new Audio('sound/tsclick.wav');
+var reverseclick = new Audio('sound/tsreverseclick.wav');
 
 ref.addEventListener('click',function(){
     integer = 0;
     val.innerHTML = integer;
     localStorage.setItem('number', 0)
-    audioElement.play();
+    reverseclick.play();
 })
 
 add.addEventListener('click',function(){
     integer += 1;
     val.innerHTML = integer;
-    audioElement.play();
+    click.play();
     localStorage.setItem('number', integer)
     window.navigator.vibrate(80);
 })
@@ -27,17 +28,9 @@ add.addEventListener('click',function(){
 remove.addEventListener('click',function(){
     integer -= 1;
     val.innerHTML = integer;
-    audioElement.play();
+    click.play();
     localStorage.setItem('number', integer)
     window.navigator.vibrate(80);
-})
-
-add.addEventListener('click',function(){
-    audioElement.play();
-})
-
-remove.addEventListener('click',function(){
-    audioElement.play();
 })
 
 console.localStorage(number)
