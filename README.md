@@ -6,4 +6,5 @@
 
 📝To do list:
 - automatic local storage saving
+- settings for audio and whitemode
 - more functions
