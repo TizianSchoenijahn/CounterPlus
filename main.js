@@ -15,6 +15,7 @@ ref.addEventListener('click',function(){
     val.innerHTML = integer;
     localStorage.setItem('number', 0)
     reverseclick.play();
+    window.navigator.vibrate([50, 50, 30]);
 })
 
 add.addEventListener('click',function(){
