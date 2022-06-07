@@ -15,7 +15,7 @@ header{
     box-shadow: 0px 10px 50px -10px rgba(0,0,0,0.5);
 }
 
-header .HeaderTextandLogo{
+header .Headercontent{
     height: 5vh;
     text-align: center;
     display: flex;
@@ -23,10 +23,24 @@ header .HeaderTextandLogo{
     align-items: center;
 }
 
-header .HeaderTextandLogo b {
+header .Headercontent b {
     color:white;
     font-size: 3vh;
     left: 50%;
+    margin-right: 1vh;
+}
+
+#RefreshButton{
+    background-color: transparent;
+    border: none;
+    size: 4vh;
+    margin-left: 1vh;
+}
+
+.RefreshIcon #RefreshButton img {
+
+    width: 3vh;
+
 }
 
 

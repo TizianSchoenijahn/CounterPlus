@@ -4,9 +4,17 @@ let add = document.getElementById('Plus');
 let remove = document.getElementById('Minus');
 
 let val = document.getElementById('number');
+let ref = document.getElementById('RefreshButton');
 let integer = 0 ;
 
 var audioElement = new Audio('tsclick.wav');
+
+ref.addEventListener('click',function(){
+    integer = 0;
+    val.innerHTML = integer;
+    localStorage.setItem('number', 0)
+    audioElement.play();
+})
 
 add.addEventListener('click',function(){
     integer += 1;
