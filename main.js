@@ -18,6 +18,11 @@ ref.addEventListener('click',function(){
     window.navigator.vibrate([50, 50, 30]);
 })
 
+document.addEventListener("DOMContentLoaded", function(){
+    integer = JSON.parse(window.localStorage.getItem('number'));
+    val.innerHTML = integer;
+})
+
 add.addEventListener('click',function(){
     integer += 1;
     val.innerHTML = integer;
@@ -33,7 +38,5 @@ remove.addEventListener('click',function(){
     localStorage.setItem('number', integer)
     window.navigator.vibrate(80);
 })
-
-console.localStorage(number)
 
 var successBool = window.navigator.vibrate(pattern);
