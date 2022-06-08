@@ -14,19 +14,18 @@ ref.addEventListener('click',function(){
     integer = 0;
     val.innerHTML = integer;
     localStorage.setItem('number', 0)
-    reverseclick.play();
     window.navigator.vibrate([50, 50, 30]);
 })
 
 document.addEventListener("DOMContentLoaded", function(){
     integer = JSON.parse(window.localStorage.getItem('number'));
     val.innerHTML = integer;
+    window.navigator.vibrate([30, 50, 30]);
 })
 
 add.addEventListener('click',function(){
     integer += 1;
     val.innerHTML = integer;
-    click.play();
     localStorage.setItem('number', integer)
     window.navigator.vibrate(80);
 })
@@ -34,9 +33,28 @@ add.addEventListener('click',function(){
 remove.addEventListener('click',function(){
     integer -= 1;
     val.innerHTML = integer;
-    click.play();
     localStorage.setItem('number', integer)
     window.navigator.vibrate(80);
 })
+
+
+
+ref.addEventListener('click',function(){
+    reverseclick.play();
+})
+
+add.addEventListener('click',function(){
+    click.play();
+})
+
+remove.addEventListener('click',function(){
+    click.play();
+})
+
+
+
+
+
+
 
 var successBool = window.navigator.vibrate(pattern);
