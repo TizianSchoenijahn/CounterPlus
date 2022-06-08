@@ -10,3 +10,4 @@
 - more functions
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=TizianSchoenijahn&repo=CounterPlus&theme=dark&show_icons=true&hide_border=true)
+Made with ♥ by **Tizian Schönijahn**
