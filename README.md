@@ -5,7 +5,6 @@
 ![Banner](https://github.com/TizianSchoenijahn/CounterPlus/blob/main/MarketingImageCounterPlus.png)
 
 📝To do list:
-- automatic local storage saving
 - settings for audio and whitemode
 - more functions
 
