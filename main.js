@@ -7,9 +7,6 @@ let val = document.getElementById('number');
 let ref = document.getElementById('RefreshButton');
 let integer = 0 ;
 
-var click = new Audio('sound/tsclick.wav');
-var reverseclick = new Audio('sound/tsreverseclick.wav');
-
 ref.addEventListener('click',function(){
     integer = 0;
     val.innerHTML = integer;
@@ -37,17 +34,23 @@ remove.addEventListener('click',function(){
     window.navigator.vibrate(50);
 })
 
+//audio
 
+var click = new Audio('sound/tsclick.wav');
+var reverseclick = new Audio('sound/tsreverseclick.wav');
 
 ref.addEventListener('click',function(){
+    reverseclick.pause();
     reverseclick.play();
 })
 
 add.addEventListener('click',function(){
+    click.pause();
     click.play();
 })
 
 remove.addEventListener('click',function(){
+    click.pause();
     click.play();
 })
 
