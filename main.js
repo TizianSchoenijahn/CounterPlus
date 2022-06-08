@@ -27,14 +27,14 @@ add.addEventListener('click',function(){
     integer += 1;
     val.innerHTML = integer;
     localStorage.setItem('number', integer)
-    window.navigator.vibrate(80);
+    window.navigator.vibrate(50);
 })
 
 remove.addEventListener('click',function(){
     integer -= 1;
     val.innerHTML = integer;
     localStorage.setItem('number', integer)
-    window.navigator.vibrate(80);
+    window.navigator.vibrate(50);
 })
 
 
