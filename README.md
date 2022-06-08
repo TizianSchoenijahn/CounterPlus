@@ -5,6 +5,7 @@
 ![Banner](https://github.com/TizianSchoenijahn/CounterPlus/blob/main/MarketingImageCounterPlus.png)
 
 📝To do list:
+- Hamburger Menu (Vertical Sidebar Navigation)
 - settings for audio and whitemode
 - more functions
 
