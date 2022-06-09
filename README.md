@@ -21,5 +21,6 @@
 🎎 Credits:
 - <a href="https://www.flaticon.com/free-icons/open-menu" title="open menu icons">Menu Icon - Pixel perfect - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/refresh" title="refresh icons">Refresh Icon - Gregor Cresnar - Flaticon</a>
+- <a href="https://www.w3schools.com/howto/howto_js_sidenav.asp" title="SideNav">W3 Schools - SideNav</a>
 
 Made with ♥ by **Tizian Schönijahn**
