@@ -38,7 +38,7 @@ if (dark) {
 
     body.style.backgroundColor = "white";
 
-    header.style.backgroundColor = "rgb(195, 195, 195)";
+    header.style.backgroundColor = "rgb(215, 215, 215)";
     header.style.boxShadow = " 0px 10px 50px -10px rgba(100, 100, 100, 0.5)";
 
     RefreshIconImg.src="image/flaticon-reload-black.png";
@@ -59,6 +59,6 @@ if (dark) {
     infobutton.style.backgroundColor = "rgb(215, 215, 215)";
     infobutton.style.boxShadow = "0px 10px 50px -10px rgba(100, 100, 100, 0.5)";
 
-    metathemecolor.innerHTML = "#C3C3C3";
+    metathemecolor.innerHTML = "#D7D7D7";
 
 }
