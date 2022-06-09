@@ -18,4 +18,8 @@
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=TizianSchoenijahn&repo=CounterPlus&theme=dark&show_icons=true&hide_border=true)
 
+🎎 Credits:
+- <a href="https://www.flaticon.com/free-icons/open-menu" title="open menu icons">Menu Icon - Pixel perfect - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/refresh" title="refresh icons">Refresh Icon - Gregor Cresnar - Flaticon</a>
+
 Made with ♥ by **Tizian Schönijahn**
