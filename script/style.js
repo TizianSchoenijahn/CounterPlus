@@ -43,19 +43,19 @@ if (dark) {
 
     RefreshIconImg.src="image/flaticon-reload-black.png";
 
-    HeaderTitle.style.color = "black";
+    HeaderTitle.style.color = "rgb(50, 50, 50)";
 
-    number.style.color = "black";
+    number.style.color = "rgb(50, 50, 50)";
 
-    MainButton1.style.color = "black";
+    MainButton1.style.color = "rgb(50, 50, 50)";
     MainButton1.style.backgroundColor = "rgb(215, 215, 215)";
     MainButton1.style.boxShadow = "0px 10px 50px -10px rgba(100, 100, 100, 0.5)";
 
-    MainButton2.style.color = "black";
+    MainButton2.style.color = "rgb(50, 50, 50)";
     MainButton2.style.backgroundColor = "rgb(215, 215, 215)";
     MainButton2.style.boxShadow = "0px 10px 50px -10px rgba(100, 100, 100, 0.5)";
 
-    infobutton.style.color = "black";
+    infobutton.style.color = "rgb(50, 50, 50)";
     infobutton.style.backgroundColor = "rgb(215, 215, 215)";
     infobutton.style.boxShadow = "0px 10px 50px -10px rgba(100, 100, 100, 0.5)";
 
