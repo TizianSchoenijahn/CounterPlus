@@ -23,21 +23,21 @@
 
 </head>
 
-<body style="background-color: rgb(30, 30, 30);">
+<body id="body">
 
-    <header>
+    <header id="header">
         
          <div class="Headercontent">
             
              <div class="HeaderTitle">
 
-             <b>CounterPlus</b>
+             <b id="HeaderTitle">CounterPlus</b>
 
             </div>
 
             <div class="RefreshIcon">
             
-             <button id="RefreshButton"> <img src="image/refresh-flaticon.svg" alt="Refresh"> </button> 
+             <button id="RefreshButton"> <img id="RefreshIconImg" src="image/flaticon-reload-white.png" alt="Refresh"> </button> 
 
              </div>
 
@@ -53,11 +53,11 @@
         <div class="Number" id="number">0</div>
 
         <div class="MainButtons">
-            <button class="MainButton" id="Plus">
+            <button class="MainButton" id="Plus" id="MainButton">
                 +
             </button>
 
-            <button class="MainButton" id="Minus">
+            <button class="MainButton" id="Minus" id="MainButton">
                 -
             </button>
 
@@ -67,12 +67,13 @@
 
     <div class="infobuttonbox">
 
-        <a href="https://github.com/TizianSchoenijahn/CounterPlus"><button class="infobutton">i</button></a>
+        <a href="https://github.com/TizianSchoenijahn/CounterPlus"><button class="infobutton" id="infobutton">i</button></a>
 
 
     </div>
 
-<script src="main.js"></script>
+<script src="script/main.js"></script>
+<script src="script/style.js"></script>
 
 </body>
 </html>
