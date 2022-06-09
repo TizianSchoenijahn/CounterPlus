@@ -2,7 +2,14 @@
 🎉 A simple counter called **CounterPlus** developed by **Tizian Schönijahn**.
 >🔌  Try it out: http://tizian.link/counterplus
 
+🖥 Features:
+- Counting
+- Dark design
+
 ![Banner](https://github.com/TizianSchoenijahn/CounterPlus/blob/main/MarketingImageCounterPlus.png)
+
+🛠 Working on:
+- White Mode
 
 📝To do list:
 - Hamburger Menu (Vertical Sidebar Navigation)
