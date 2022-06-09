@@ -8,8 +8,7 @@ let MainButton1 = document.getElementById('Minus');
 let MainButton2 = document.getElementById('Plus');
 let infobutton = document.getElementById('infobutton');
 let RefreshIconImg = document.getElementById('RefreshIconImg');
-
-
+let metathemecolor = document.getElementById('metathemecolor');
 
 let dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
@@ -32,6 +31,8 @@ if (dark) {
 
     infobutton.style.color = "white";
     infobutton.style.backgroundColor = "rgb(60, 60, 60)";
+
+    metathemecolor.innerHTML = "#282828";
 
 } else {
 
@@ -57,5 +58,7 @@ if (dark) {
     infobutton.style.color = "black";
     infobutton.style.backgroundColor = "rgb(215, 215, 215)";
     infobutton.style.boxShadow = "0px 10px 50px -10px rgba(100, 100, 100, 0.5)";
+
+    metathemecolor.innerHTML = "#C3C3C3";
 
 }
