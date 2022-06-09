@@ -29,17 +29,19 @@ header .Headercontent{
 header .Headercontent b {
     color:white;
     font-size: 3vh;
+    text-align: center;
 }
 
 .HeaderTitle{
 
-    width: 90%;
-    float: center;
+    width: 100%;
+
+
 }
 
 .MenuIcon{
 
-    width: 5%;
+    width: 0%;
     float: left;
     height: 5vh;
 }
