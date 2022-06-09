@@ -4,12 +4,12 @@
 
 🖥 Features:
 - Counting
-- Dark design
+- Dark-/Whitemode
 
 ![Banner](https://github.com/TizianSchoenijahn/CounterPlus/blob/main/MarketingImageCounterPlus.png)
 
 🛠 Working on:
-- White Mode
+- Hamburger Menu (Vertical Sidebar Navigation)
 
 📝To do list:
 - Hamburger Menu (Vertical Sidebar Navigation)
