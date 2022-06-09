@@ -25,25 +25,29 @@
 
 <body id="body">
 
+<div id="main">
+
     <header id="header">
         
          <div class="Headercontent">
+
+
+            <div class="MenuIcon">
             
-             <div class="HeaderTitle">
+                <button id="MenuButton" onclick="openNav()"> 
+                    <img id="MenuIconImg" src="image/flaticon-menu-white.png" alt="Menu">
+                </button> 
+   
+            </div>
+   
+            
+            <div class="HeaderTitle">
 
              <b id="HeaderTitle">CounterPlus</b>
 
             </div>
 
-            <div class="RefreshIcon">
-            
-             <button id="RefreshButton"> <img id="RefreshIconImg" src="image/flaticon-reload-white.png" alt="Refresh"> </button> 
-
-             </div>
-
         </div>
-
-
 
 
     </header>
@@ -65,15 +69,28 @@
 
     </div>
 
-    <div class="infobuttonbox">
+    <div class="refreshbox">
 
-        <a href="https://github.com/TizianSchoenijahn/CounterPlus"><button class="infobutton" id="infobutton">i</button></a>
+        <button id="RefreshButton"> 
+            <img id="RefreshIconImg" src="image/flaticon-reload-white.png" alt="Refresh"> 
+       </button> 
 
 
     </div>
+</div>
+
+<div id="mySidenav" class="sidenav">
+    <a id="NavLink1" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a id="NavLink2" href="">Made by</a>
+    <a id="NavLink3" href="https://tizian.xn--schnijahn-27a.de/links">Tizian</a>
+    <a id="NavLink4" href="https://tizian.xn--schnijahn-27a.de/links">Schönijahn</a>
+    <a id="NavLink5" href=""></a>
+    <a id="NavLink6" href="https://github.com/TizianSchoenijahn/CounterPlus">GitHub</a>
+  </div>
 
 <script src="script/main.js"></script>
 <script src="script/style.js"></script>
+<script src="script/sidenav.js"></script>
 
 </body>
 </html>

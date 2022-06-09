@@ -7,6 +7,7 @@ let remove = document.getElementById('Minus');
 
 let val = document.getElementById('number');
 let ref = document.getElementById('RefreshButton');
+let menu = document.getElementById('MenuButton');
 let integer = 0 ;
 
 ref.addEventListener('click',function(){
@@ -36,6 +37,10 @@ remove.addEventListener('click',function(){
     window.navigator.vibrate(50);
 })
 
+menu.addEventListener('click',function(){
+    window.navigator.vibrate(50);
+})
+
 //audio
 
 var click = new Audio('sound/tsclick.wav');
@@ -52,6 +57,11 @@ add.addEventListener('click',function(){
 })
 
 remove.addEventListener('click',function(){
+    click.pause();
+    click.play();
+})
+
+menu.addEventListener('click',function(){
     click.pause();
     click.play();
 })
