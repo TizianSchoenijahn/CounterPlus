@@ -1,6 +1,6 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "200px";
-    document.getElementById("main").style.marginLeft = "200px";
+    document.getElementById("mySidenav").style.width = "180px";
+    document.getElementById("main").style.marginLeft = "180px";
     document.getElementById("Header").style.borderBottomLeftRadius= "0vh";
   }
   
